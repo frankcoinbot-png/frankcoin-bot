@@ -1,0 +1,25 @@
+:root { font-family: system-ui, sans-serif; }
+body { margin: 0; background: radial-gradient(1200px 800px at 50% -10%, #1e3a8a, #0b1733 60%, #051022 100%); color: #e6e6e6; }
+.app { max-width: 520px; margin: 0 auto; padding: 16px; }
+header { text-align: center; font-weight: 700; letter-spacing: 1px; }
+nav { display: grid; grid-template-columns: repeat(6,1fr); gap: 6px; margin: 12px 0; }
+nav button, nav select { padding: 8px; border-radius: 10px; border: 1px solid rgba(255,255,255,.08); background: rgba(255,255,255,.04); color:#e6e6e6; backdrop-filter: blur(10px); }
+nav button.active { outline: 2px solid #60a5fa; }
+.screen { background: rgba(0,0,0,.25); border: 1px solid rgba(255,255,255,.08); border-radius: 16px; padding: 16px; box-shadow: 0 8px 30px rgba(0,0,0,.35); }
+.home .stats { display: flex; justify-content: space-between; margin-bottom: 16px; }
+.coin { width: 240px; height: 240px; border-radius: 50%; margin: 24px auto; display: block; border: none; background: center/contain no-repeat url('/coin.png'); box-shadow: 0 10px 40px rgba(255,204,0,.25), inset 0 8px 18px rgba(255,255,255,.15); }
+.coin:active { transform: scale(0.97); filter: brightness(1.05); }
+.hint { text-align:center; opacity:.85; }
+.card { border: 1px solid rgba(255,255,255,.08); border-radius: 14px; padding: 12px; background: radial-gradient(600px 200px at 20% -10%, rgba(96,165,250,.15), rgba(255,255,255,0)); }
+.price { font-weight: 700; margin-bottom: 8px; }
+.tabs { display:flex; gap:8px; margin-bottom: 8px; }
+.tabs button { padding:6px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background: rgba(255,255,255,.04); color:#e6e6e6; }
+ol { margin:0; padding-left: 18px; }
+.ref { display:flex; gap:6px; margin: 10px 0; }
+.ref input { flex:1; padding:8px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background:rgba(0,0,0,.35); color:#e6e6e6; }
+.ref button { padding:8px 12px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background: rgba(255,255,255,.04); color:#e6e6e6; }
+/* Admin */
+.admin .grid { display:grid; gap:12px; grid-template-columns: 1fr; }
+.admin .card { padding:12px; border-radius:14px; border:1px solid rgba(255,255,255,.08); background: rgba(255,255,255,.04); }
+.admin input, .admin select { width:100%; padding:8px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background:rgba(0,0,0,.35); color:#e6e6e6; margin-top:6px; }
+.admin button { padding:8px 12px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background: rgba(96,165,250,.18); color:#e6e6e6; }
