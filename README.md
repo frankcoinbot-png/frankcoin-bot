@@ -1,0 +1,2 @@
+# frankcoin-bot
+mining
